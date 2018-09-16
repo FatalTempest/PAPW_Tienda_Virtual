@@ -1,0 +1,77 @@
+:root{
+	--leo-img-ms: 150px;
+	--leo-cov-ms: 1750px;
+	--leo-cov-hms: 250px;
+}
+
+body .leo-img{
+	min-width: var(--leo-img-ms);
+	max-width: var(--leo-img-ms);
+	min-height: var(--leo-img-ms);
+	max-height: var(--leo-img-ms);
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	background: #05a;
+	position: absolute;
+	top: 85px;
+	left: 25px;
+}
+
+body .leo-img img{
+	width: 100%;
+}
+
+body .leo-cover{
+	min-width: var(--leo-cov-ms);
+	max-width: var(--leo-cov-ms);
+	min-height: var(--leo-cov-hms);
+	max-height: var(--leo-cov-hms);
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	background: #05a;
+	position: relative;
+}
+
+body .leo-cover img{
+	
+}
+
+#nav{
+    width: =100%;
+    margin:0;
+    padding:0;
+    background-color: #04151F;
+
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #04151F;
+    font-family: Calibri;
+    font-size: 18px;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover{
+	background-color: #03b;
+}
+#nav , #nav #bag{
+	float:right;
+}

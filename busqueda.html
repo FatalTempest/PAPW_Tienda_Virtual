@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resultados de búsqueda</title>
+
+	<!-- Meta info-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+		<!-- Plug-in -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+		<!-- Estilos -->
+		<link rel="stylesheet" type="text/css" href="estilos/index.css">
+		<link rel="stylesheet" type="text/css" href="estilos/registro.css">
+		<link rel="stylesheet" type="text/css" href="estilos/busqueda.css">
+
+</head>
+<body>
+	<!-- MENÚ DE NAVEGACIÓN -->
+		<nav class="navbar">
+			<div class="container-fluid">	
+				<!-- Logo -->
+				<div class="col-auto caja" id="logo">
+					<a href="menu.html" class="navbar-brand">
+						<img src="sources/logo1.png" width="60px">
+					</a>			
+				</div>
+
+				<!-- Barra de búsqueda -->
+				<div class="col-6 caja">
+					<form action="" >
+						<div class="input-group">
+								<input type="text" name="" placeholder="Buscar" class="form-control">
+							<div class="input-group-append">
+								<button class="btn btn-primary">Buscar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<!-- Botón inicio de sesión -->
+				<div class="col-2 caja">
+					<div class="row justify-content-center">
+						<div class="col-auto">
+							<img src="sources/user_1280x1280.png" class="img-fluid" style="width: 30px;">
+						</div>
+						<div class="col-12 text-center">
+							<a href="login.html" class="btn btn-sm btn-primary">Iniciar Sesión</a>
+						</div>
+					</div>
+				</div>							
+			</div>
+		</nav>
+		 <!-- Barra de categorías -->
+      <div class="row" id="clas">
+        <div class="col-ms-3 card" id="clas">
+          <ul>
+           <li id="cat1"><a href="#"><b>Categoría 1</b></a></li>
+            <li id="cat2"><a href="#"><b>Categoría 2</b></a></li>
+            <li id="cat3"><a href="#"><b>Categoría 3</b></a></li>
+          </ul>
+        </div> 
+      </div>
+    <!-- Resultados -->
+    <div class="container" id=result>
+      <div class="row">
+        <div class="col-ms-3 card" id=>
+          <div class="card h-100">
+              <a href="producto.html"><img class="card-img-top" src="sources/box.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="producto.html">Producto 1</a>
+                </h4>
+                <h5>$200</h5>
+                 <p class="card-text">Descripcion</p>
+              </div>
+            </div>
+        </div> 
+      </div>
+    </div>
+		
+</body>
+</html>

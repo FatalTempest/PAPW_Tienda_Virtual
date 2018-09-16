@@ -1,0 +1,220 @@
+/*body .row{
+	border: 2px solid black;
+}
+
+body .row div[class^="col"]{
+	border: 1px solid white;
+}*/
+
+/*------------------------- FILA DE IMÁGENES -------*/
+body .product-img-container .product-img-item{
+	background: #2B76FF;
+	border-radius: 5px;
+	border: 5px solid #092789;
+	min-width: 200px;
+	max-width: 200px;
+	min-height: 200px;
+	max-height: 200px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+body .product-img-container .product-img-item img{
+	width: 100%;
+}
+
+/*------------------------------- UNIDADES -------*/
+body .prepend-box,
+body .append-box{
+	background: #092789;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+body .prepend-box{
+	border-radius: 5px 0 0 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+body .append-box{
+	background: #2B76FF;
+	border-radius: 0 5px 5px 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*--------------------------- CATEGORÍAS -------*/
+body .categories{
+	margin-top: 10px;
+}
+
+body .categories li:first-child{
+	border-radius: 5px 0 0 5px;
+}
+
+body .categories li:last-child{
+	border-radius: 0 5px 5px 0;
+}
+
+body .categories li:only-child{
+	border-radius: 5px;
+}
+
+body .categories li{
+	background: #092789;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/*------------------------------ PRECIO -------*/
+body .price-container span:last-child{
+	background: #52B744;
+	color: #fff;
+	min-width: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	max-height: 50px;
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
+}
+
+body .price-container .price{
+	background: #1D9A0C;
+	color: #A9FFB1;
+	border-radius: 0 25px 25px 0;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 50px;
+	padding-right: 10px;
+	position: absolute;
+	top: 0px;
+	left: 50px;
+}
+
+/*----------------------------- PAGOS -------*/
+body .payment-methods-container ul{
+	list-style: none;
+}
+
+body .payment-methods-container div:first-child{
+	background: #092789;
+	color: #fff;
+	border-radius: 5px 5px 0 0;
+	display: block;
+	width: 75%;
+	padding: 10px;
+}
+
+body .payment-methods-container .h4{
+	margin-bottom: 0;
+}
+
+body .payment-methods-container div:last-child{
+	background: #2B76FF;
+	color: #fff;
+	border-radius: 0 0 5px 5px;
+	display: block;
+	width: 75%;
+}
+
+/*---------------------------- DESCRIPCIÓN -------*/
+body .product-desc-container{
+	background: #2B76FF;
+	border-radius: 0 0 5px 5px;
+}
+
+body .product-desc-container .h4{
+	background: #092789;
+	color: #fff;
+	margin-bottom: 0;
+	padding: 10px;
+	border-radius: 5px 5px 0 0;
+}
+
+body .product-desc-container div:last-child{
+	color: #fff;
+	padding: 10px;
+}
+
+/*------------------------------- VENDEDOR -------*/
+body .seller-container div{
+	background: #092789;
+	color: #fff;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 15px;
+}
+
+body .seller-container a{
+	color: #fff;
+}
+
+body .seller-container a:hover{
+	color: #2B76FF;
+}
+
+/*------------------------------- CALIFICACIÓN -------*/
+body .product-avg-container div{
+	background: #2B76FF;
+	border-radius: 5px 5px 0 0;
+	padding: 10px;
+}
+
+body .product-avg-container .h5{
+	color: #fff;
+	margin-bottom: 0;
+	padding-left: 5px;
+}
+
+body .product-avg-container ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+body .product-avg-container li{
+	float: left;
+}
+
+body .product-avg-container li i{
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 100px;
+	color: #FCE671;
+}
+
+/*------------------------------- COMENTAR -------*/
+body .comment-input-container textarea{
+	min-width: 500px;
+	max-width: 300px;
+	min-height: 100px;
+	max-height: 100px;
+	border: none;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .35);
+}
+
+body .comment-input-container div:first-child{
+	background: #2B76FF;
+	padding-left: 10px;
+}
+
+/*------------------------------- COMENTARIOS -------*/
+body .comment-container li{
+	background: #2B76FF;
+	color: #fff;
+	border-radius: 5px;
+	border-bottom-style: solid;
+}

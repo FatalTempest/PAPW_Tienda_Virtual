@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Perfil</title>
+
+	<!-- Meta info-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+		<!-- Plug-in -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+		<!-- Estilos -->
+		<link rel="stylesheet" type="text/css" href="estilos/index.css">
+		<link rel="stylesheet" type="text/css" href="estilos/registro.css">
+		<link rel="stylesheet" type="text/css" href="estilos/perfil.css">
+
+</head>
+<body>
+	<!-- MENÚ DE NAVEGACIÓN -->
+		<nav class="navbar">
+			<div class="container-fluid">	
+				<!-- Logo -->
+				<div class="col-auto caja" id="logo">
+					<a href="menu.html" class="navbar-brand">
+						<img src="sources/logo1.png" width="60px">
+					</a>			
+				</div>
+
+				<!-- Barra de búsqueda -->
+				<div class="col-6 caja">
+					<form action="" >
+						<div class="input-group">
+								<input type="text" name="" placeholder="Buscar" class="form-control">
+							<div class="input-group-append">
+								<button class="btn btn-primary">Buscar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<!-- Botón inicio de sesión -->
+				<div class="col-2 caja">
+					<div class="row justify-content-center">
+						<div class="col-auto">
+							<img src="sources/user_1280x1280.png" class="img-fluid" style="width: 30px;">
+						</div>
+						<div class="col-12 text-center">
+							<a href="login.html" class="btn btn-sm btn-primary">Iniciar Sesión</a>
+						</div>
+					</div>
+				</div>
+							
+			</div>
+		</nav>
+
+		<!-- Imagenes de perfil -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 d-flex justify-content-center">	
+					<!--  Imagen de Portada -->
+					<div class="leo-cover d-flex justify-content-center">
+						<img src="sources/coverimg.jpg">
+					</div>
+					<!-- Imagen de Perfil -->
+					<div class="leo-img">
+						<img src="sources/user_1280x1280.png">
+					</div>
+				</div>				
+			</div>			
+		</div>
+		<!--NAVIGATION BAR-->
+		<div class="container-fluid" id="nav">
+			<div class="row justify-content-end">				
+				<div class="navbar" id="nav">
+  					<ul>
+  						<li id="store"><a href="#"><b>Productos</b></a></li>
+    					<li id="eraser"><a href="borrador.html"><b>Borradores</b></a></li>
+    					<li id="hchannel"><a href="historial.html"><b>Historial</b></a></li>
+    					<li id="eshop"><a href="carrito.html"><b>Carrito</b></a></li>
+    					<li id="exit"><a href="#"><b>Cerrar Sesión</b></a></li>
+  					</ul> 
+  				</div>
+			</div>
+				<div class="row justify-content-center">
+					<div class="col-10 bg-warning">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Nombre</th>
+									<th>Categoría</th>
+									<th>Precio</th>
+									<th>Unidades</th>
+									<th>Imagen</th>
+									<th>Editar</th>
+									<th>Borrar</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="justify-content">Artículo 1</td>
+									<td><a href="#">Categoría 1</a></td>
+									<td>$200</td>
+									<td>5</td>
+									<td><img src="sources/box.png" width="100px"></td>
+									<td><a href="#"><img src="sources/edit.png" width="50px"></a></td>
+									<td><a href="#"><img src="sources/delete.png" width="50px"></a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+		</div>
+</body>
+</html>

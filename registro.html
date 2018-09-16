@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registro</title>
+
+		<!-- Meta info-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+		<!-- Plug-in -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+		<!-- Estilos -->
+		<link rel="stylesheet" type="text/css" href="estilos/index.css">
+		<link rel="stylesheet" type="text/css" href="estilos/registro.css">
+	</head>
+	<body>
+		<!-- MENÚ DE NAVEGACIÓN -->
+		<nav class="navbar">
+			<div class="container-fluid">	
+				<!-- Logo -->
+				<div class="col-auto caja" id="logo">
+					<a href="menu.html" class="navbar-brand">
+						<img src="sources/logo1.png" width="60px">
+					</a>			
+				</div>
+
+				<!-- Barra de búsqueda -->
+				<div class="col-6 caja">
+					<form action="" >
+						<div class="input-group">
+								<input type="text" name="" placeholder="Buscar" class="form-control">
+							<div class="input-group-append">
+								<button class="btn btn-primary">Buscar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<!-- Botón inicio de sesión -->
+				<div class="col-2 caja">
+					<div class="row justify-content-center">
+						<div class="col-auto">
+							<img src="sources/user_1280x1280.png" class="img-fluid" style="width: 30px;">
+						</div>
+						<div class="col-12 text-center">
+							<a href="login.html" class="btn btn-sm btn-primary">Iniciar Sesión</a>
+						</div>
+					</div>
+				</div>
+							
+			</div>
+		</nav>
+
+		<main>
+			<!-- FORM DE REGISTRO -->
+			<div class="container">
+				<form action="">
+					<div class="row justify-content-left">
+						<div class="col-auto">
+							<h1>Registro</h1>
+						</div>
+					</div>
+
+					<div class="row">
+						<p></p>
+					</div>
+
+					<!-- Nick -->
+					<div class="row form-group">
+						<div class="col-4">
+							<label for="input-nick">Usuario</label>
+							<input type="text" name="" class="form-control" id="input-nick" maxlength="16" minlength="4" placeholder="Usuario" required="">
+							<small class="text-muted">Debe contener entre 4 y 16 caracteres</small>
+						</div>
+					</div>
+
+					<!-- Contraseña -->
+					<div class="row form-group">
+						<div class="col-4">
+							<label for="input-password">Contraseña</label>
+							<input type="password" name="" id="input-password" maxlength="16" class="form-control" placeholder="Contraseña" required="">
+						</div>
+						<div class="col-4">
+							<label for="input-password2">Confirmar contraseña</label>
+							<input type="password" name="" id="input-password2" maxlength="16" class="form-control" required="">
+						</div>
+					</div>
+
+					<!-- Nombre Completo -->
+					<div class="row form-group">
+						<div class="col-4">
+							<label for="input-name">Nombre</label>
+							<input type="text" name="" id="input-name" maxlength="32" class="form-control" placeholder="Nombre" required="">
+						</div>
+						<div class="col-4">
+							<label for="input-firstName">Apellido paterno</label>
+							<input type="text" name="" id="input-firstName" maxlength="32" class="form-control" placeholder="Apellido paterno" required="">
+						</div>
+						<div class="col-4">
+							<label for="input-secondName">Apellido materno</label>
+							<input type="text" name="" id="input-firstName" maxlength="32" class="form-control" placeholder="Apellido materno" required="">
+						</div>
+					</div>
+
+					<!-- Fecha nacimiento -->
+					<div class="row form-group">
+						<div class="col-4">
+							<label for="input-birthDate">Fecha nacimiento</label>
+							<input type="date" name="" id="input-birthDate" class="form-control" required="">
+							<small class="text-muted">Debe ser mayor de 18 años</small>
+						</div>
+					</div>
+
+					<!-- Correo/Teléfono -->
+					<div class="row form-group">
+						<div class="col-4">
+							<label for="input-email">Correo</label>
+							<input type="email" name="" id="input-email" maxlength="64" class="form-control" placeholder="Correo" required="">
+						</div>
+						<div class="col-3">
+							<label for="input-phone">Teléfono</label>
+							<input type="text" name="" id="input-phone" maxlength="32" class="form-control" placeholder="Teléfono" required="">
+						</div>
+					</div>
+
+					<!-- Calle/Número/Colonia -->
+					<div class="row form-group">
+						<div class="col-3">
+							<label for="input-street">Calle</label>
+							<input type="text" name="" id="input-street" maxlength="64" class="form-control" placeholder="Calle" required="">
+						</div>
+						<div class="col-3">
+							<label for="input-number">Número</label>
+							<input type="text" name="" id="input-number" maxlength="32" class="form-control" placeholder="Número" required="">
+						</div>
+						<div class="col-3">
+							<label for="input-street2">Colonia</label>
+							<input type="text" name="" id="input-street2" maxlength="64" class="form-control" placeholder="Colonia" required="">
+						</div>
+					</div>
+
+					<!-- Ciudad/Estado/País/CP -->
+					<div class="row form-group">
+						<div class="col-3">
+							<label for="input-city">Ciudad</label>
+							<input type="text" name="" id="input-city" maxlength="32" class="form-control" placeholder="Ciudad" required="">
+						</div>
+						<div class="col-3">
+							<label for="input-state">Estado</label>
+							<input type="text" name="" id="input-state" maxlength="32" class="form-control" placeholder="Estado" required="">
+						</div>
+						<div class="col-3">
+							<label for="input-country">País</label>
+							<input type="text" name="" id="input-country" maxlength="32" class="form-control" placeholder="País" required="">
+						</div>
+						<div class="col-3">
+							<label for="input-zipCode">Código postal</label>
+							<input type="text" name="" id="input-zipCode" maxlength="32" class="form-control" placeholder="Código postal" required="">
+						</div>
+					</div>
+
+					<!-- Foto Perfil/portada -->
+					<div class="row form-group">
+						<!-- Input file -->
+						<div class="col-5">
+							<div class="form-group">
+								<label for="input-profileImg">Imagén de perfil</label>
+								<input type="file" name="" class="form-control-file" id="input-profileImg">
+							</div>
+							<div class="form-group">
+								<label for="input-coverImg">Imagen de portada</label>
+								<input type="file" name="" class="form-control-file" id="input-coverImg">
+							</div>
+						</div>
+
+						<!-- Img containers -->
+						<div class="col-6 img-group-container">
+							<div class="img-container2 d-flex">
+								<img src="sources/coverimg.jpg" class="align-self-center" id="img-cover">
+							</div>
+							<div class="img-container">
+								<img src="sources/user_1280x1280.png" id="img-profile">
+							</div>
+						</div>
+					</div>
+
+					<div class="row justify-content-center py-2 mb-2">
+						<div class="col-3">
+							<button class="btn btn-primary btn-lg btn-block" type="submit">Registrar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</main>
+
+		<script type="text/javascript" src="Jquery/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="Jquery/popper.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+		<script type="text/javascript">
+			$(function(){
+				$('[data-toggle="tooltip"]').tooltip();
+			})
+		</script>
+	</body>
+</html>

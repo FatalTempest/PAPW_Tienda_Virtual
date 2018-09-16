@@ -1,0 +1,43 @@
+.navbar{
+				background: #147dff;
+			}
+
+			body{
+				background: #64a5f4;
+			}
+
+			.contenedor{
+				margin-top: 100px;
+				/*border: 1px solid red;*/
+			}
+
+			.contenedor .fila
+			{
+				border: 1px solid white;
+			}
+
+			.contenedor .columna{
+				border: 1px solid black;
+			}
+
+			footer .row{
+				background: #147dff;
+			}
+
+			footer .row .caja{
+				border: 0px solid pink;
+				color: #0b4c70;
+
+			}
+/*
+			.navbar .navbar-brand{
+				border: 1px solid black;
+			}
+
+			.container-fluid .caja{
+				border: 1px solid white;
+			}
+
+			.row{
+				background: gray;
+			}*/

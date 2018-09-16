@@ -1,0 +1,37 @@
+#clas{
+    width: =100%;
+    margin:0;
+    padding:0;
+    background-color: #04151F;
+    left:20px;
+
+}
+
+#clas ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #04151F;
+    font-family: Calibri;
+    font-size: 18px;
+}
+
+#clas li {
+    float: center;
+}
+
+#clas li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+#clas li a:hover{
+	background-color: #03b;
+}
+#clas{
+	float:left;
+}

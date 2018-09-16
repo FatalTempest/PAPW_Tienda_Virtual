@@ -1,0 +1,32 @@
+main .img-group-container{
+	padding-top: 20px;
+}
+
+main .container .img-container{
+	background: white;
+	border-radius: 100px;
+	max-width: 100px;
+	min-height: 100px;
+	max-height: 100px;
+	overflow: hidden;
+
+	position: absolute;
+	top: 0px;
+	left: 50px;
+}
+
+main .container .img-container img,
+main .container .img-container2 img{
+	width: 100%;
+}
+
+main .container .img-container2{
+	background: white;
+	border-radius: 5px;
+	max-width: 520px;
+	min-height: 174px;
+	max-height: 174px;
+	overflow: hidden;
+
+	position: relative;
+}
